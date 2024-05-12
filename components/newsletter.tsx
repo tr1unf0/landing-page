@@ -23,19 +23,38 @@ export default function Newsletter() {
 
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 text-white mb-2">Stay in the loop</h3>
-              <p className="text-purple-200 text-lg">Join our newsletter to get top news before anyone else.</p>
+              <h3 className="h3 text-white mb-2">Coming soon!</h3>
+              {/* <p className="text-purple-200 text-lg">Join our newsletter to get top news before anyone else.</p> */}
             </div>
 
             {/* CTA form */}
-            <form className="w-full lg:w-1/2">
+            {/* <form className="w-full lg:w-1/2">
               <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
                 <input type="email" className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Your best email…" aria-label="Your best email…" />
                 <a className="btn text-purple-600 bg-purple-100 hover:bg-white shadow" href="#0">Subscribe</a>
-              </div>
+              </div> */}
               {/* Success message */}
               {/* <p className="text-center lg:text-left lg:absolute mt-2 opacity-75 text-sm">Thanks for subscribing!</p> */}
-            </form>
+            {/* </form> */}
+
+            {/* <div id="mc_embed_shell">
+              <div id="mc_embed_signup">
+                <div id="mc_embed_signup"> */}
+                  {/* <form action="https://triunfoaureo.us17.list-manage.com/subscribe/post?u=02f56afabf72fa055f4e8eb91&amp;id=01f1219391&amp;f_id=009c42e0f0" 
+                  method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_self">
+
+                    <div className="flex flex-col sm:flex-row justify-center max-w-xs mx-auto sm:max-w-md lg:max-w-none">
+
+                      <input type="text" name="b_02f56afabf72fa055f4e8eb91_01f1219391" className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400" placeholder="Your best email…" aria-label="Your best email…"/>
+
+                      <input type="submit" name="subscribe" id="mc-embedded-subscribe" className="btn text-purple-600 bg-purple-100 hover:bg-white shadow" value="Subscribe" />
+
+                    </div>
+                  </form> */}
+                {/* </div>
+              </div>
+            </div> */}
+
 
           </div>
 
